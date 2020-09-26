@@ -1,0 +1,200 @@
+*{
+  margin: = 0;
+padding: = 0;
+    
+}
+.right-menu li{
+display: inline-block;
+    margin-top: 30px !important;  
+}
+.right-menu li .fa {
+    font-size: 12px;
+    margin: 10px;
+    cursor: pointer;
+    color: orange;
+}
+/*
+.input-group input{
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}*/
+.navbar-brand img {
+    width: 100px;    
+}
+.navbar-brand {
+    left: 50%;
+    top: 23%;
+    transform: translateX(-50%);
+    position: absolute;
+    
+}
+.header {
+/*    background: #f5f6fc;*/
+
+    background: lightblue;
+    margin-bottom: 80px;
+}
+.navbar {
+    padding: 0 35px; !important;   
+    
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+    margin-top: 30px;
+}
+.navbar-toggler fa{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Banner_image {
+    margin: 80px 115px;
+    width: 60%;   
+}
+.Banner_image img {
+    width: 100%;
+    margin-bottom: -80px;
+}
+
+.Banner {
+    position: relative;
+}
+
+.Banner-Title {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.Banner_image h1 {
+    font-size: 55px;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    line-height: 70px;
+    padding: 0 10px 0 10px;
+}
+.fashion-trends {
+    padding: 100px 0;
+    
+}
+.fashion bix {
+    margin: 80px 0;
+}
+
+.title-style h1 {
+    padding: 40px 0;
+    
+}
+
+.title-style {
+    margin: 0 auto 80px;
+    height: 120px;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0.50,0.5);
+}
+.title-style::after {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+    
+}
+
+.title-style::before {
+    content: '';
+    height: 100px;
+    width: 200px;
+    background-color: #f992a6;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+    
+}
+.trending-image {
+    position: absolute;
+    margin-bottom: 2500px;
+    
+}
+
+.trending-image img {
+    width: 350px
+}
+
+.btn-buy {
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: lightblue;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%,0); 
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+    color: black;
+}
+
+.trending-image:hover .btn-buy {
+    transform: translate(-50%, 50%);
+    bottom: 50%;
+    transition: 0.6;
+    opacity: 1;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    background: maroon ;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+      
+}
+.trending-image:hover .overlay {
+    opacity: .5;
+    height: 100%
+    
+}
+.offer {
+    background-image: url(Pics/Pic4.jpg);
+    z-index: auto;
+}
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

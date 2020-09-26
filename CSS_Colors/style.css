@@ -1,0 +1,36 @@
+body{
+    background-image:url(backG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: maroon;
+    background-size: contain;
+    box-shadow: 1px 22px 1px brown;
+}
+h1 {
+    color: green;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: 4px 4px 4px brown;
+    
+}
+h2{
+    color: rgb(921, 821, 850);
+    font-size: 21px;
+    font-style: normal;
+    
+}
+
+.borderImg{
+    border: 2px dotted red;
+    border-style: 2px dotted red;
+}
+ul li{
+    color: white;
+    font-size: 20px
+}
+ul >li {
+    color: yellow;
+}
